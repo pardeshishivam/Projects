@@ -10,6 +10,7 @@ I build projects that genuinely intrigue me — the kind where you understand th
 | Project | What it does | Stack | Status |
 |---|---|---|---|
 | [Nifty 50 Risk Metrics](./nifty50-var/) | Historical VaR, EWMA VaR & Expected Shortfall on Nifty 50 daily returns with a backtest dashboard | Python, Streamlit, yFinance | ✅ Live |
+| [GARCH Volatility Modelling](./garch-volatility/) | Conditional volatility estimation on Nifty 50 using GARCH(1,1) with Normal and Student-t errors; 22-day forecast + dynamic VaR | Python, arch, yFinance | ✅ Done |
 | Greek Attribution *(coming soon)* | Pathwise P&L decomposition across Delta, Vanna, Charm and higher-order Greeks for options books | Python, QuantLib | 🔧 Refactoring |
 
 ---
